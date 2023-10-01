@@ -46,14 +46,15 @@ section{
     padding-left: 36px;
     line-height: 2em;
     font-family: 'sriracha', cursive;
-    font-size: 3.5vw;  
+    font-size: 4.5vw;  
      
 }
 
 .imagem1{
     color: #fff;
     background-image: url(imagens/background001.jpg);
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
     background-position: right;
     background-attachment: fixed;
     box-shadow: inset 1px 2px 20px 3px #000000;
