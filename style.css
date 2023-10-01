@@ -13,7 +13,6 @@ html, body{
 
 header{
     background-color: #000000;
-    padding: 90px;
     color: #ffffff;
     text-align: center; 
 }
@@ -21,12 +20,14 @@ header{
 header>h1{
     font-family: 'Passion One', cursive;
     font-weight: normal;
+    padding-top: 50px;
     font-size: 10vw;
     font-variant: small-caps;
 }
 
 header>p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
 }
 
 a{
@@ -52,7 +53,6 @@ section{
 .imagem1{
     color: #fff;
     background-image: url(imagens/background001.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
     background-attachment: fixed;
@@ -70,7 +70,6 @@ section{
     color: #fff;
     background-image: url(imagens/background002.jpg);
     background-position: right;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     box-shadow: inset 1px 2px 20px 3px #000000;
 }
