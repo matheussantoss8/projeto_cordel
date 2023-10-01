@@ -53,9 +53,9 @@ section{
 .imagem1{
     color: #fff;
     background-image: url(imagens/background001.jpg);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right center;
     background-attachment: fixed;
     box-shadow: inset 1px 2px 20px 3px #000000;
 }
@@ -70,8 +70,9 @@ section{
 .imagem2{
     color: #fff;
     background-image: url(imagens/background002.jpg);
-    background-position: right;
+    background-position: right bottom;
     background-attachment: fixed;
+    background-size: cover;
     box-shadow: inset 1px 2px 20px 3px #000000;
 }
 
